@@ -17,7 +17,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += main.cpp \
     factory_pattern.cpp \
     singleton_pattern.cpp \
-    builder_pattern.cpp
+    builder_pattern.cpp \
+    threadsafesingleton.cpp \
+    object_adapter.cpp \
+    bridge_pattern.cpp \
+    composite_pattern.cpp \
+    decorator_pattern.cpp \
+    facade_pattern.cpp \
+    flyweight_pattern.cpp \
+    proxy_pattern.cpp \
+    chainofresponsibility.cpp
 
 HEADERS += \
-    creational_pattern.h
+    creational_pattern.h \
+    behaviour_pattern.h
