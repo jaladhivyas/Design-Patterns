@@ -26,7 +26,9 @@ SOURCES += main.cpp \
     facade_pattern.cpp \
     flyweight_pattern.cpp \
     proxy_pattern.cpp \
-    chainofresponsibility.cpp
+    chainofresponsibility.cpp \
+    null_patterns.cpp \
+    state_pattern.cpp
 
 HEADERS += \
     creational_pattern.h \
